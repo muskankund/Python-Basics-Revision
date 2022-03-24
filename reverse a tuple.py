@@ -1,0 +1,6 @@
+t=eval(input("enter the numbers separated by comma"))
+print("user entered:",t)
+l=list(t)
+l.reverse()
+t=tuple(l)
+print("reverse tuple is",t)
